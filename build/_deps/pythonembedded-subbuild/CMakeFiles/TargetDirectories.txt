@@ -1,0 +1,3 @@
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/pythonembedded-populate.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/ZERO_CHECK.dir

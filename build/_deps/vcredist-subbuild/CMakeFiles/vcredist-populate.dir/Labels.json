@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/vcredist-populate"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/98bb5a04329af65dbcaf28408afee7d0/vcredist-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/88d6c8964aca9c1a68c7ee61ceaabb15/vcredist-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/02b8c349c5fbd81cd796dc6dad85d3f8/vcredist-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vcredist-populate"
+		],
+		"name" : "vcredist-populate"
+	}
+}

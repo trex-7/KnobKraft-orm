@@ -1,0 +1,3 @@
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/winsparkle-populate.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\b693bb93158c0ff593620e4ebe3d205e\pythonembedded-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\941e5ce0b8dffddebada0e5fbcf4f68e\pythonembedded-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\0cabe4d245c100104ece6be200d84252\pythonembedded-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\pythonembedded-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{441D6037-D111-3D47-96D5-2F796C63FC20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

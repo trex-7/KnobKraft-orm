@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\d4e4769d3055d2897257ec6b162bf854\icu-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\50b9542aced51ed6cd45d4623b066276\icu-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\51011b963c132b9fcf82877212ec15ed\icu-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-subbuild\CMakeFiles\icu-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0398BD9C-018D-32A0-A98D-A63F9D924B19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

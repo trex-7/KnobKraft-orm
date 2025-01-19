@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-subbuild\CMakeFiles\0cabe4d245c100104ece6be200d84252\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{441D6037-D111-3D47-96D5-2F796C63FC20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

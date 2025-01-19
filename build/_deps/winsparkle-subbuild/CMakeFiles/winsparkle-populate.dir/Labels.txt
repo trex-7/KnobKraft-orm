@@ -1,0 +1,14 @@
+# Target labels
+ winsparkle-populate
+# Source files and their labels
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/winsparkle-populate
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/69c287578315cd78f64d176d8b98f673/winsparkle-populate.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/2670241b8cc3bc532b6b40e7bab554d1/winsparkle-populate-complete.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-build.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-configure.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-download.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-install.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-mkdir.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-patch.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-test.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-update.rule

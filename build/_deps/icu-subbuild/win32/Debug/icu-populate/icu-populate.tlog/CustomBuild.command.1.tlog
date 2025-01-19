@@ -1,0 +1,164 @@
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/download-icu-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/verify-icu-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/extract-icu-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\D4E4769D3055D2897257EC6B162BF854\ICU-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\icu-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\50B9542ACED51ED6CD45D4623B066276\ICU-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/Debug/icu-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/icu-populate-prefix/src/icu-populate-stamp/Debug/icu-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKEFILES\51011B963C132B9FCF82877212EC15ED\ICU-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\ICU-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

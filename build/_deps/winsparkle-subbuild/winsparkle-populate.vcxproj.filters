@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\2670241b8cc3bc532b6b40e7bab554d1\winsparkle-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\69c287578315cd78f64d176d8b98f673\winsparkle-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\winsparkle-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{891ED142-1569-3AB9-A5E7-0608BC7A1D4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

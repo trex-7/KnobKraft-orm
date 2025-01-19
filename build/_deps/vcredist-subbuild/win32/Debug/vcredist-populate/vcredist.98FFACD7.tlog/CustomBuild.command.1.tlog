@@ -1,0 +1,174 @@
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-COPYFILE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vc_redist.x64.exe C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-copyfile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\02B8C349C5FBD81CD796DC6DAD85D3F8\VCREDIST-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\88D6C8964ACA9C1A68C7EE61CEAABB15\VCREDIST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/Debug/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/Debug/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKEFILES\98BB5A04329AF65DBCAF28408AFEE7D0\VCREDIST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\VCREDIST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,14 @@
+# Target labels
+ icu-populate
+# Source files and their labels
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/icu-populate
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/51011b963c132b9fcf82877212ec15ed/icu-populate.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/50b9542aced51ed6cd45d4623b066276/icu-populate-complete.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-build.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-configure.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-download.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-install.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-mkdir.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-patch.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-test.rule
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/d4e4769d3055d2897257ec6b162bf854/icu-populate-update.rule

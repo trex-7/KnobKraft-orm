@@ -1,0 +1,3 @@
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/vcredist-populate.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/winsparkle-populate"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/69c287578315cd78f64d176d8b98f673/winsparkle-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/2670241b8cc3bc532b6b40e7bab554d1/winsparkle-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/3023cbff2835f739a5989eb97ebd30ea/winsparkle-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"winsparkle-populate"
+		],
+		"name" : "winsparkle-populate"
+	}
+}

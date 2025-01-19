@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B3D7BE6-8653-3AFB-AD60-0C9E664CE4F9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>winsparkle-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Creating directories for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Creating directories for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Creating directories for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Creating directories for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing download step (download, verify and extract) for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/download-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/verify-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/extract-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\winsparkle-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Performing download step (download, verify and extract) for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/download-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/verify-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/extract-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\winsparkle-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Performing download step (download, verify and extract) for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/download-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/verify-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/extract-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\winsparkle-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Performing download step (download, verify and extract) for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/download-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/verify-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/extract-winsparkle-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\winsparkle-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No update step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No update step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No update step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No update step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No patch step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No patch step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No patch step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No patch step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No configure step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No configure step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No configure step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No configure step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No build step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No build step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No build step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No build step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No install step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No install step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No install step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No install step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3023cbff2835f739a5989eb97ebd30ea\winsparkle-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No test step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No test step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No test step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No test step for 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\2670241b8cc3bc532b6b40e7bab554d1\winsparkle-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Completed 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)/winsparkle-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Completed 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)/winsparkle-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Completed 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)/winsparkle-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Completed 'winsparkle-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/$(Configuration)/winsparkle-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/winsparkle-populate-prefix/src/winsparkle-populate-stamp/$(Configuration)/winsparkle-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\src\winsparkle-populate-stamp\$(Configuration)\winsparkle-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\69c287578315cd78f64d176d8b98f673\winsparkle-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\winsparkle-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\winsparkle-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\winsparkle-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\$(Configuration)\winsparkle-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\winsparkle-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/winsparkle-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\winsparkle-populate-prefix\tmp\winsparkle-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\CMakeFiles\winsparkle-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\winsparkle-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{A573B15F-CD50-355D-8A60-439447321585}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

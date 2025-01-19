@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\88d6c8964aca9c1a68c7ee61ceaabb15\vcredist-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\98bb5a04329af65dbcaf28408afee7d0\vcredist-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D1ABB4EF-BD07-379B-BD49-494BF732F53F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

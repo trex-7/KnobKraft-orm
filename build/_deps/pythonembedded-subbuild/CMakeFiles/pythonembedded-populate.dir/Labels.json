@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/pythonembedded-populate"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/0cabe4d245c100104ece6be200d84252/pythonembedded-populate.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/941e5ce0b8dffddebada0e5fbcf4f68e/pythonembedded-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/b693bb93158c0ff593620e4ebe3d205e/pythonembedded-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pythonembedded-populate"
+		],
+		"name" : "pythonembedded-populate"
+	}
+}

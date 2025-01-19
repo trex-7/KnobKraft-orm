@@ -1,0 +1,3 @@
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/icu-populate.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/icu-subbuild/CMakeFiles/ZERO_CHECK.dir

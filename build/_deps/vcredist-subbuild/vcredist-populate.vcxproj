@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98FFACD7-40D8-3501-BB71-2A89AFFEDBF4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>vcredist-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-copyfile.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Copying file to SOURCE_DIR</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vc_redist.x64.exe C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-copyfile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Copying file to SOURCE_DIR</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vc_redist.x64.exe C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-copyfile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Copying file to SOURCE_DIR</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vc_redist.x64.exe C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-copyfile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Copying file to SOURCE_DIR</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vc_redist.x64.exe C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-copyfile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\02b8c349c5fbd81cd796dc6dad85d3f8\vcredist-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\88d6c8964aca9c1a68c7ee61ceaabb15\vcredist-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-copyfile;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\98bb5a04329af65dbcaf28408afee7d0\vcredist-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject-download.cmake.in;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\ExternalProject.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\RepositoryInfo.txt.in;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\vcredist-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{C9B2A5E3-958A-3753-982B-614AB42C73FF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

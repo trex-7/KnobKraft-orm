@@ -1,0 +1,164 @@
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/download-pythonembedded-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/verify-pythonembedded-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/extract-pythonembedded-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\B693BB93158C0FF593620E4EBE3D205E\PYTHONEMBEDDED-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\sm\Documents\GitHub\KnobKraft-orm\build\_deps\pythonembedded-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\941E5CE0B8DFFDDEBADA0E5FBCF4F68E\PYTHONEMBEDDED-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/Debug/pythonembedded-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/pythonembedded-populate-prefix/src/pythonembedded-populate-stamp/Debug/pythonembedded-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKEFILES\0CABE4D245C100104ECE6BE200D84252\PYTHONEMBEDDED-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SM\DOCUMENTS\GITHUB\KNOBKRAFT-ORM\BUILD\_DEPS\PYTHONEMBEDDED-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild -BC:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild --check-stamp-file C:/Users/sm/Documents/GitHub/KnobKraft-orm/build/_deps/pythonembedded-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
